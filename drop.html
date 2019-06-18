@@ -1,0 +1,72 @@
+<html>
+<head>
+<style>
+ul{
+list-style-type:none;
+margin:0;
+padding:0;
+overflow:hidden;
+background-color:#333;
+}
+li{
+float:left;
+}
+li a, dropbtn{
+display:inline-block;
+color:white;
+text-align:center;
+padding:14px 16px;
+text-decoration:none;
+}
+li a:hover, .dropdown:hover .dropbtn{
+background-color:red;
+}
+li.dropdown{
+display:inline-block;
+}
+.dropdown-content{
+display:none;
+position:absolute;
+background-color:#f9f9f9;
+min-width:160px;
+box-shadow:0px 8px 16px 0px rgba(0,0,0,0,2);
+}
+.dropdown-content a{
+color:black;
+padding:12px 16px;
+text-decoration:none;
+display:block;
+text-align:left;
+}
+.dropdown-content a:hover{background-color:#f1f1f1
+}
+.show{
+display:block;
+}
+</style>
+</head>
+<body>
+<ul><li><a class="active" href="#home">HOME</a></li>
+<li class="dropdown">
+<a href="javascript:void(0)" class="dropbtn" onclick="myfunction()">public</a>
+<div class="dropdown-content" id="myDropdown">
+<a href="#" >Arihant</a>
+<a href="#" >Nirakl</a>
+<a href="#" >Arihant2</a>
+<a href="#" >Arihant6</a>
+<li class="dropdown">
+<a href="javascript:void(0)" class="dropbtn" onclick="myfunction()">books</a>
+<div class="dropdown-content" id="myDropdown">
+<a href="#" >Arihant5</a>
+<a href="#" >Arihant3</a>
+<a href="#" >Arihant2</a>
+<a href="#" >Arihant1</a>
+
+<li><a class="active" href="hweb.html">About Us</a><li>
+<li><a class="active" href="#home">About Us1</a><li>
+<li><a class="active" href="hweb.html">About Us3</a><li>
+<li><a class="active" href="hweb.html">About Us5</a><li>
+</div></li></ul>
+</body>
+</style>
+</html>

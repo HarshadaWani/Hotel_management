@@ -1,0 +1,226 @@
+<html>
+<head>
+<script>
+function ValidateEmail(EmailAddress)
+{
+    var loc=EmailAddress.indexOf('@')
+if(loc==-1)
+{
+   alert('You entered inaccurate EmailAddress')
+}
+} 
+function Highlight(Elements)
+{
+    Element.style.color='blue'
+Element.style.backgroundColor='red'
+}
+</script>
+</head>
+<body bgcolor="linen">
+                        <center>Booking Form</center>
+                    </div>
+                    <div class="myraidgray" style="padding-left:80px;">
+                   <form action="feedback form.html" method="post" onsubmit="return validate();" name="contactf">
+                            <table border="0" align="left" cellpadding="3" cellspacing="0">
+
+                                <tbody>
+                                    <tr>
+
+                                        <td width="116" height="40" align="left" valign="middle" class="Timesgray" style="text-align:left; border-bottom:solid 1px #CCC "><strong>First Name:</strong></td>
+  
+
+                                        <td width="460" style="border-bottom:solid 1px #CCC ">
+                                            <input type="text" name="c_first_name" size="35"  onchange="Highlight(this)"/>
+                                            <stong style="color:#F00">*</strong>            </stong>
+                                        </td>
+
+
+                                    </tr>
+
+
+
+
+                                        <td width="116" height="40" align="left" valign="middle" class="Timesgray" style="text-align:left; border-bottom:solid 1px #CCC "><strong>Last Name:</strong></td>
+  
+
+                                        <td width="460" style="border-bottom:solid 1px #CCC ">
+                                            <input type="text" name="c_first_name" size="35" onchange="Highlight(this)" />
+                                            <stong style="color:#F00">*</strong>            </stong>
+                                        </td>
+
+
+                                    </tr>
+
+
+
+
+                                    <tr>
+
+                                        <td height="40" align="left" valign="middle" class="Timesgray" style="text-align:left;border-bottom:solid 1px #CCC "><strong> E-mail:</strong></td>
+
+  <td style="border-bottom:solid 1px #CCC ">
+                                            <input type="text"  name="email" size="35" onblur="ValidateEmail(this.value)" onchange="Highlight(this)"/>
+                                            <stong style="color:#F00">*</strong>    </stong>
+                                        </td>
+
+                                    </tr>
+
+
+
+                                    <tr>
+
+                                        <td height="40" align="left" valign="middle" class="Timesgray" style="text-align:left;border-bottom:solid 1px #CCC "><strong>Phone No. </strong>:</td>
+
+        <td style="border-bottom:solid 1px #CCC ">
+      <input name="digit" type="digit"id="tel" size="25"/>
+        <stong style="color:#F00">*</strong></stong>
+             </td></tr>
+
+                                    <tr>
+
+                                        <td height="60" align="left" valign="middle" class="Timesgray" style="text-align:left;border-bottom:solid 1px #CCC "><strong>ADDRESS:</strong></td>
+
+                                        <td style="border-bottom:solid 1px #CCC ">
+                                            <textarea name="Country" id="Country" cols="27" rows="5" ></textarea>
+                                            <stong style="color:#F00">*</strong></stong>
+                                        </td>
+
+                                    </tr>
+
+                                    <tr>
+                                        <td height="40" align="left" valign="top" class="Timesgray" style="text-align:left;border-bottom:solid 1px #CCC "><strong>WHICH ROOMS YOU WANT TO BOOK:</strong></td>
+
+                                        <td valign="top" style="border-bottom:solid 1px #CCC ">
+                                            <select name="jumpMenu" id="jumpMenu" onchange="MM_jumpMenu(&#39;parent&#39;,this,0)" style="width:240px">
+
+                                                <option selected="">---Select---</option>
+
+                                                <option value="AC">AC</option>
+
+                                                <option value="NON-AC">NON-AC</option>                                              
+                                            </select>
+                                        </td>
+
+                                    </tr>
+
+                                    <tr>
+                                        <td height="40" align="left" valign="top" class="Timesgray" style="text-align:left;border-bottom:solid 1px #CCC "><strong>No.of you want to book :</strong></td>
+
+                                        <td valign="top" style="border-bottom:solid 1px #CCC ">
+                                            <select name="room" id="room" onchange="MM_room(&#39;parent&#39;,this,0)" style="width:240px">
+
+                                                <option value="0">---Select---</option>
+
+<option value="1">1</option>
+
+                                                         
+<option value="2">2</option>
+
+                                                <option value="3">3</option>
+
+                                                <option value="4">4</option>
+
+                                                <option value="5">5</option>
+
+                                                <option value="6">6</option>
+
+                                  
+                                            </select>
+                                        </td>
+
+                                    </tr>
+
+                                    <tr>
+                                        <td height="40" align="left" valign="top" class="Timesgray" style="text-align:left;border-bottom:solid 1px #CCC "><strong>no of adults:</strong></td>
+
+                                        <td valign="top" style="border-bottom:solid 1px #CCC ">
+                                            <select name="adults" id="adults" onchange="MM_adults(&#39;parent&#39;,this,0)" style="width:240px">
+<option value="0">---Select---</option>
+
+         
+
+                                                <option value="1">1</option>
+
+                                                <option value="2">2</option>
+
+                                                <option value="3">3</option>
+
+                                                <option value="4">4</option>
+
+                                                <option value="5">5</option>
+
+                                            </select>
+                                        </td>
+
+                                    </tr>
+<tr>
+                                        <td height="40" align="left" valign="top" class="Timesgray" style="text-align:left;border-bottom:solid 1px #CCC "><strong>no of child:</strong></td>
+
+                                        <td valign="top" style="border-bottom:solid 1px #CCC ">
+                                            <select name="adults" id="adults" onchange="MM_adults(&#39;parent&#39;,this,0)" style="width:240px">
+<option value="0">---Select---</option>
+
+         
+
+                                                <option value="1">1</option>
+
+                                                <option value="2">2</option>
+
+                                                <option value="3">3</option>
+
+                                                <option value="4">4</option>
+
+                                                <option value="5">5</option>
+
+                                            </select>
+                                        </td>
+
+                                    </tr>
+
+
+                                    <tr>
+                                        <td height="40" align="left" valign="top" class="Timesgray" style="text-align:left;border-bottom:solid 1px #CCC "><strong>no. of days you stay in hotel:</strong></td>
+
+                                        <td valign="top" style="border-bottom:solid 1px #CCC ">
+                                            <select name="child" id="child" onchange="MM_child(&#39;parent&#39;,this,0)" style="width:240px">
+<option value="1">---Select---</option>
+
+       
+                                                <option value="0">1 day</option>
+
+                                                <option value="1">2 days</option>
+
+                                                <option value="2">3 days</option>
+
+                                                <option value="3">4 days</option>
+
+   </select>
+    </td>
+
+                                    </tr>
+ <tr>
+
+                                        <td height="40" align="left" valign="middle" class="Timesgray" style="text-align:left;border-bottom:solid 1px #CCC "><strong>check in date: </strong>:</td>
+
+        <td style="border-bottom:solid 1px #CCC ">
+      <input name="digit" type="digit"id="tel" size="25" value="dd-mm-yy"/>
+        <stong style="color:#F00">*</strong></stong>
+             </td></tr>
+ <tr>
+
+                                        <td height="40" align="left" valign="middle" class="Timesgray" style="text-align:left;border-bottom:solid 1px #CCC "><strong>CHECK OUT DATE: </strong>:</td>
+
+        <td style="border-bottom:solid 1px #CCC ">
+      <input name="digit" type="digit"id="tel" size="25" value="dd-mm-yy"/>
+        <stong style="color:#F00">*</strong></stong>
+             </td></tr>
+                                    <tr>
+
+                                        <td align="left" valign="top">&nbsp;</td>
+
+                                        <td valign="top">
+                                            <table cellspacing="0" width="168" border="0">
+
+                                                <tbody><br><br><br><br><br><a href="thankyou.html">Submit</a>
+
+</form></body></html>                                                    

@@ -1,0 +1,164 @@
+<html>
+<head>
+<body>
+<img src="F:\website\photos\logo.png">
+<img src="F:\website\photos\214.png">
+<a href="www.twitter.com"><img src="F:\website\photos\social-twitter.png" align="right"></a>
+<a href="www.facebook.com"><img src="F:\website\photos\social-facebook.png"align="right"></a>
+<a href="www.google.com"><img src="F:\website\photos\social-google.png"align="right" ></a>
+<a href="www.rss.com"><img src="F:\website\photos\social-rss.png"align="right"></a>&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp<align="right">
+<br><br>
+<a href="F:\website\sonali\homepage.html"><input name="HOME" value="HOME" type="button"  color=""  onclick="parent.toppage.changecontent"/></a> &nbsp&nbsp&nbsp&nbsp
+<a href="F:\website\sonali\aboutus.html"><input name="HOME" value="ABOUT US" type="button" onclick="parent.toppage.changecontent"/></a> &nbsp&nbsp&nbsp&nbsp
+<a href="F:\website\sonali\admission.html"><input name="HOME" value="ADMISSION" type="button" onclick="parent.toppage.changecontent"/></a> &nbsp&nbsp&nbsp&nbsp
+<a href="F:\website\sonali\act.html"><input name="HOME" value="ACIVITIES" type="button" onclick="parent.toppage.changecontent"/></a> &nbsp&nbsp&nbsp&nbsp
+<a href="F:\website\sonali\fac.html"><input name="HOME" value="FACILITIES" type="button" onclick="parent.toppage.changecontent"/></a> &nbsp&nbsp&nbsp&nbsp
+<a href="F:\website\sonali\donation.html"><input name="HOME" value="DONATION" type="button" onclick="parent.toppage.changecontent"/></a>&nbsp&nbsp&nbsp&nbsp
+<a href="F:\website\sonali\alumni.html"><input name="HOME" value="ALUMNI" type="button" onclick="parent.toppage.changecontent"/></a> &nbsp&nbsp&nbsp&nbsp
+<input name="HOME" value="CONTACT US" type="button" onclick="parent.toppage.changecontent"/> &nbsp&nbsp&nbsp&nbsp
+<input name="HOME" value="REPORTS" type="button" onclick="parent.toppage.changecontent"/> &nbsp&nbsp&nbsp&nbsp</ul><hr>
+<marquee><font size="3" color="red" face="arial">STUDENT WELFARE ASSOCIATION</font></marquee>
+<hr>
+
+
+
+
+<!--
+function changecontent() 
+{
+alert("function called")
+}
+-->
+</head>
+<body>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing:border-box}
+body {font-family: Verdana,sans-serif;}
+.mySlides {display:none}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+</style>
+<body>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="F:\website\photos\DSCF4662.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="F:\website\photos\DSCF4671.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="F:\website\photos\IMG_3991.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="F:\website\photos\IMG_4000.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); 
+}
+</script>
+</body>
+</html>

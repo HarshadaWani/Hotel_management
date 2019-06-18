@@ -1,0 +1,337 @@
+/* Webkit */
+::selection {
+    background: #c4cf5d;
+}
+/* Gecko/Mozilla */
+::-moz-selection {
+    background: #c4cf5d;
+}
+
+body {
+		background-color:#ffffff;
+			}
+
+footer,
+.title_with_line,
+.progress_bars .progress_title,
+.link_holder_parallax,
+.tooltip,
+#back_to_top,
+.link_holder:hover .circle_item .circle{
+	background-color:#ffffff;
+}
+
+body.boxed{
+	background-color:#d8dbbc; 			background-image: url('http://www.idiggreenacres.com/wp-content/uploads/2014/12/gans_new_wood_bg2000px.jpg');
+		background-position: 0px 0px;
+		background-repeat: repeat;
+	}
+
+body.boxed .content,
+footer{
+	background-color:#ffffff;
+}
+
+.header_inner {
+
+	background-color: rgb(255,255,255);
+	background-color: rgba(255,255,255,0.85);
+}
+
+.link_holder:hover,
+.circle_item .circle,
+.dropcap.circle,
+.dropcap.square,
+.accordion h3 span,
+.progress_bars .progress_content,
+.highlight,
+.list.num_bold ul > li:before,
+.list.num ul > li:before,
+.button,
+input[type='submit'],
+.tabs .tabs-nav li a,
+.active_best_price,
+.social_menu li a:hover,
+.social_menu.dark li a:hover,
+.box_small_holder.white:hover,
+.box_small_holder.black:hover,
+.posts_holder2 article .text .date,
+.pagination2 ul li span,
+.pagination2 ul li a:hover,
+.link_holder_parallax a:hover,
+.link_holder_parallax a.active,
+#back_to_top:hover,
+.widget.widget_search form input[type="submit"],
+.widget .tagcloud a
+{
+	background-color: #c4cf5d;
+}
+
+a:hover,
+p a:hover,
+nav.main_menu ul li a.current,
+nav.main_menu ul li:hover a,
+nav.main_menu2 ul li.active a,
+nav.main_menu2 ul li:hover a,
+.drop_down .second .inner ul li:first-child a,
+.drop_down .second .inner ul li a:hover,
+.drop_down2 .second .inner2 ul li:hover a,
+.drop_down2 .second .inner2 ul li.sub ul li:hover a,
+.drop_down3 .second .mc a.have_sub,
+.breadcrumbs a,
+.breadcrumbs span,
+.dropcap,
+blockquote p,
+.latest_post h3 a:hover,
+.latest_post h6 a,
+.posts_holder3 article h3 a,
+.posts_holder2 article h2 a,
+.posts_holder3 article h3 a:hover,
+.posts_holder2 article h2 a:hover,
+.posts_holder article h2 a:hover,
+.filter a:hover,
+.filter a.current,
+.portfolio_detail .info h6 a,
+.portfolio_navigation .portfolio_prev a:hover, 
+.portfolio_navigation .portfolio_next a:hover,
+.slide .text.type2,
+.tooltip,
+aside .widget a:hover,
+.footer_top li a:hover,
+.list.circle ul > li:before
+{
+	color: #c4cf5d;
+}
+
+nav.main_nav > ul > li:hover > a,
+nav.main_nav > ul > li > a.current,
+nav.main_nav > ul > li.active > a{
+	border-color: #c4cf5d;
+}
+
+.box_small_holder.black,
+.selectnav,
+.selectnav ul,
+.circle_item:hover .circle,
+.progress_bars .progress_content_outer,
+.tabs .tabs-nav li.active a,
+.tabs .tabs-container,
+.price_table_inner,
+table.standard-table th,
+table.standard-table tr:nth-child(odd) td,
+.testimonial_with_background,
+.message.different_message_color,
+input,
+textarea,
+.widget.widget_archive select,
+.widget.widget_categories select,
+.widget.widget_text select,
+.widget.widget_search form input[type="text"],
+.accordion h3 span:hover
+{
+	background-color: #d8dbbc;
+}
+
+blockquote
+{
+	border-color: #d8dbbc;
+}
+
+
+
+.footer_holder{
+	background-color: #584153;
+}
+
+.footer_holder *{
+	color: #ffffff !important;
+}
+
+.footer_top{
+		border-color: #c4cf5d;
+			border-width: 1px;
+	}
+
+span.highlight {
+	background-color: #d8dbbc;
+}
+
+	header{
+		position: fixed;
+		top: 0px;
+				width: auto;
+			}
+	
+	.admin-bar header{
+		top: 28px;
+	}
+	
+
+.logo {
+				
+	}
+
+
+nav.main_nav ul li a{
+					line-height: 111px;
+			}
+
+
+.drop_down .second{
+	top: 84px;
+}
+
+.drop_down2 .second{
+	top: 103px;
+}
+
+.drop_down3 .second{
+	top: 114px;
+}
+
+
+
+h1{
+			font-family: PT Sans, sans-serif;
+					}
+
+h2,
+h2 a,
+.slide .text.type2 h2,
+.slide .text.type2 h2 a{
+			font-family: PT Sans, sans-serif;
+					}
+
+
+h3,
+h3 a{
+			font-family: PT Sans, sans-serif;
+					}
+
+blockquote p{
+		font-family: PT Sans, sans-serif;
+					}
+
+h4{
+			font-family: PT Sans, sans-serif;
+					}
+
+h5{
+			font-family: PT Sans, sans-serif;
+					}
+.breadcrumbs{
+		color: #52a339;
+			font-family: PT Sans, sans-serif;
+					}
+p{
+						font-style: normal;
+		}
+
+.slide .text h2{
+				font-size: 24px;
+				}
+
+
+.slide .text.type2 h2,
+.slide .text.type2 h2 a{
+				font-size: 24px;
+				}
+.slide .text p{
+				font-size: 24px;
+				}
+
+a,
+.filter span,
+.filter a,
+p a,
+.portfolio_detail .info h6 a,
+.latest_post h6 a,
+.posts_holder3 article h3 a,
+.posts_holder2 article h2 a{
+		color: #52a339;
+				}
+
+a:hover,
+.filter a:hover,
+p a:hover,
+.portfolio_navigation .portfolio_prev a:hover, 
+.portfolio_navigation .portfolio_next a:hover,
+aside .widget a:hover,
+.footer_top li a:hover,
+.latest_post h3 a:hover,
+.posts_holder3 article h3 a:hover,
+.posts_holder2 article h2 a:hover,
+.posts_holder article h2 a:hover,{
+		color: #13751b;
+		}
+.title{
+		text-align:left;
+				background-image: url('http://www.idiggreenacres.com/wp-content/uploads/2016/05/BreadcrumbsMay2016-2.jpg');
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: center 0px;
+	}
+
+.title h1{
+						font-style: normal;
+		}
+
+.button, input[type="submit"],
+input[type="password"]{
+			font-family: PT Sans, sans-serif;
+				line-height: 20px;
+						border-color: #ffc03b;
+	}
+
+.message p{
+					line-height: 20px;
+			}
+
+.selectnav2 {
+    display: block;
+    margin: 0 0 26px;
+    background-color: #d8dbbc;
+}
+
+.selectnav2 {
+    background-color: #f4f3f4;
+    display: none;
+    float: left;
+    position: relative;
+    text-align: left;
+    top: 0;
+    width: 100%;
+}
+
+.selectnav2 span {
+    background-image: url("../img/navigation.png");
+    background-position: right center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    display: block;
+    height: 46px;
+    position: relative;
+    width: 100%;
+    z-index: 511;
+}
+
+.menu-header-mobile-container ul li {
+    font-size: 17px;
+    text-align: center;
+    padding-bottom: 7px;
+    border-bottom: 1px dotted #ccc;
+}
+
+@media screen and (max-width: 929px) {
+   .selectnav2 {
+    display: block;
+   }
+}
+
+div.selectnav:second{
+   display:none;
+}
+
+#menu-header-mobile{
+   display:none;
+}

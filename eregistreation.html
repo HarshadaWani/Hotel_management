@@ -1,0 +1,273 @@
+
+                        Reservation
+                    </div>
+                    <div class="myraidgray" style="padding-left:80px;">
+                        <form action="reservation_mail.php" method="post" onsubmit="return validate();" name="contactf">
+                            <table border="0" align="left" cellpadding="3" cellspacing="0">
+
+                                <tbody>
+                                    <tr>
+
+                                        <td width="116" height="40" align="left" valign="middle" class="Timesgray" style="text-align:left; border-bottom:solid 1px #CCC "><strong> Name:</strong></td>
+
+                                        <td width="460" style="border-bottom:solid 1px #CCC ">
+                                            <input type="text" name="c_first_name" size="35"  />
+                                            <stong style="color:#F00">*</strong>            </stong>
+                                        </td>
+
+                                    </tr>
+
+
+
+                                    <tr>
+
+                                        <td height="40" align="left" valign="middle" class="Timesgray" style="text-align:left;border-bottom:solid 1px #CCC "><strong> E-mail:</strong></td>
+
+                                        <td style="border-bottom:solid 1px #CCC ">
+                                            <input type="email"  name="c_email" size="35"  />
+                                            <stong style="color:#F00">*</strong>    </stong>
+                                        </td>
+
+                                    </tr>
+
+
+
+                                    <tr>
+
+                                        <td height="40" align="left" valign="middle" class="Timesgray" style="text-align:left;border-bottom:solid 1px #CCC "><strong>Phone No. </strong>:</td>
+
+                                        <td style="border-bottom:solid 1px #CCC ">
+                                            <input name="tel" type="text" id="tel" size="25"  />
+                                            <stong style="color:#F00">*</strong></stong>
+                                        </td>
+
+                                    </tr>
+
+                                    <tr>
+
+                                        <td height="60" align="left" valign="middle" class="Timesgray" style="text-align:left;border-bottom:solid 1px #CCC "><strong> Details:</strong></td>
+
+                                        <td style="border-bottom:solid 1px #CCC ">
+                                            <textarea name="Country" id="Country" cols="27" rows="1" ></textarea>
+                                            <stong style="color:#F00">*</strong></stong>
+                                        </td>
+
+                                    </tr>
+
+                                    <tr>
+                                        <td height="40" align="left" valign="top" class="Timesgray" style="text-align:left;border-bottom:solid 1px #CCC "><strong>Type of Room:</strong></td>
+
+                                        <td valign="top" style="border-bottom:solid 1px #CCC ">
+                                            <select name="jumpMenu" id="jumpMenu" onchange="MM_jumpMenu(&#39;parent&#39;,this,0)" style="width:240px">
+
+                                                <option selected="">Select Here</option>
+
+                                                <option value="deluxe">Deluxe Non AC</option>
+
+                                                <option value="superdeluxe">Super Deluxe AC</option>
+
+                                                <option value="classic-ac">Classic AC</option>
+
+                                            </select>
+                                        </td>
+
+                                    </tr>
+
+                                    <tr>
+                                        <td height="40" align="left" valign="top" class="Timesgray" style="text-align:left;border-bottom:solid 1px #CCC "><strong>No. of Room:</strong></td>
+
+                                        <td valign="top" style="border-bottom:solid 1px #CCC ">
+                                            <select name="room" id="room" onchange="MM_room(&#39;parent&#39;,this,0)" style="width:240px">
+
+                                                <option value="1">1</option>
+
+                                                <option value="2">2</option>
+
+                                                <option value="3">3</option>
+
+                                                <option value="4">4</option>
+
+                                                <option value="5">5</option>
+
+                                                <option value="6">6</option>
+
+                                                <option value="7">7</option>
+
+                                                <option value="8">8</option>
+
+                                                <option value="9">9</option>
+
+                                                <option value="10">10</option>
+                                            </select>
+                                        </td>
+
+                                    </tr>
+
+                                    <tr>
+                                        <td height="40" align="left" valign="top" class="Timesgray" style="text-align:left;border-bottom:solid 1px #CCC "><strong>No. of Adults:</strong></td>
+
+                                        <td valign="top" style="border-bottom:solid 1px #CCC ">
+                                            <select name="adults" id="adults" onchange="MM_adults(&#39;parent&#39;,this,0)" style="width:240px">
+
+                                                <option value="1">1</option>
+
+                                                <option value="2">2</option>
+
+                                                <option value="3">3</option>
+
+                                                <option value="4">4</option>
+
+                                                <option value="5">5</option>
+
+                                                <option value="6">6</option>
+
+                                                <option value="7">7</option>
+
+                                                <option value="8">8</option>
+
+                                                <option value="9">9</option>
+
+                                                <option value="10">10</option>
+                                            </select>
+                                        </td>
+
+                                    </tr>
+
+                                    <tr>
+                                        <td height="40" align="left" valign="top" class="Timesgray" style="text-align:left;border-bottom:solid 1px #CCC "><strong>No. of Children (3-10 yers):</strong></td>
+
+                                        <td valign="top" style="border-bottom:solid 1px #CCC ">
+                                            <select name="child" id="child" onchange="MM_child(&#39;parent&#39;,this,0)" style="width:240px">
+
+                                                <option value="0">0</option>
+
+                                                <option value="1">1</option>
+
+                                                <option value="2">2</option>
+
+                                                <option value="3">3</option>
+
+                                                <option value="4">4</option>
+
+                                                <option value="5">5</option>
+
+                                                <option value="6">6</option>
+
+                                                <option value="7">7</option>
+
+                                                <option value="8">8</option>
+
+                                                <option value="9">9</option>
+
+                                                <option value="10">10</option>
+                                            </select>
+                                        </td>
+
+                                    </tr>
+
+                                    <tr>
+
+                                        <td align="left" valign="top">&nbsp;</td>
+
+                                        <td valign="top">
+                                            <table cellspacing="0" width="168" border="0">
+
+                                                <tbody>
+
+                                                    <tr>
+
+                                                        <td width="166">
+														<a href="http://google.com"><button>Submit</button></a>
+                                                                <br />
+
+                                                               
+                                                                <!--table cellpadding="0" cellspacing="2">
+                                                                    <tbody>
+																		<tr>
+																			<td valign="middle"><input type="Text" id="demo1"  name="demo1" onclick="javascript:NewCal('demo1','ddmmmyyyy',true,12)"  maxlength="25" size="25"><a href="javascript:NewCal('demo1','ddmmmyyyy',true,12)"><img src="Images/calendar.jpg" align="baseline" title="Calendar" border="0"></a></td>
+																		</tr>
+                                                                        <!--<tr>
+                                                                            <td valign="middle">
+                                                                                <select class="calendarDateInput" id="ArrivalD_Month_ID" onchange="ArrivalD_Object.changeMonth(this)" name="D1">
+                                                                                    <option value="0">Jan</option>
+                                                                                    <option value="1">Feb</option>
+                                                                                    <option value="2">Mar</option>
+                                                                                    <option value="3">Apr</option>
+                                                                                    <option value="4">May</option>
+                                                                                    <option value="5">Jun</option>
+                                                                                    <option value="6">Jul</option>
+                                                                                    <option value="7">Aug</option>
+                                                                                    <option value="8">Sep</option>
+                                                                                    <option value="9">Oct</option>
+                                                                                    <option value="10" selected="">Nov</option>
+                                                                                    <option value="11">Dec</option>
+                                                                                </select>
+                                                                            </td>
+                                                                            <td valign="middle">
+                                                                                <select class="calendarDateInput" id="ArrivalD_Day_ID" onchange="ArrivalD_Object.changeDay(this)" name="D2">
+                                                                                    <option>1</option>
+                                                                                    <option>2</option>
+                                                                                    <option>3</option>
+                                                                                    <option>4</option>
+                                                                                    <option>5</option>
+                                                                                    <option>6</option>
+                                                                                    <option>7</option>
+                                                                                    <option>8</option>
+                                                                                    <option>9</option>
+                                                                                    <option>10</option>
+                                                                                    <option>11</option>
+                                                                                    <option>12</option>
+                                                                                    <option selected="">13</option>
+                                                                                    <option>14</option>
+                                                                                    <option>15</option>
+                                                                                    <option>16</option>
+                                                                                    <option>17</option>
+                                                                                    <option>18</option>
+                                                                                    <option>19</option>
+                                                                                    <option>20</option>
+                                                                                    <option>21</option>
+                                                                                    <option>22</option>
+                                                                                    <option>23</option>
+                                                                                    <option>24</option>
+                                                                                    <option>25</option>
+                                                                                    <option>26</option>
+                                                                                    <option>27</option>
+                                                                                    <option>28</option>
+                                                                                    <option>29</option>
+                                                                                    <option>30</option>
+                                                                                </select>
+                                                                            </td>
+                                                                            <td valign="middle">
+                                                                                <input class="calendarDateInput" type="text" name="ArrivalD_Year_ID" id="ArrivalD_Year_ID" size="4" maxlength="4" title="Year" value="2014" onkeypress="return YearDigitsOnly(window.event)" onkeyup="ArrivalD_Object.checkYear(this)" onblur="ArrivalD_Object.fixYear(this)" />
+                                                                            </td>
+                                                                            <td valign="middle">
+                                                                                <a id="ArrivalD_ID_Link" href="javascript:ArrivalD_Object.show()" onmouseover="return ArrivalD_Object.iconHover(true)" onmouseout="return ArrivalD_Object.iconHover(false)">
+                                                                                    <img src="Images/calendar.jpg" align="baseline" title="Calendar" border="0" />
+                                                                                </a>&nbsp;<span id="ArrivalD_ID" style="position:absolute;visibility:hidden;width:126px;background-color:white;border:1px solid dimgray;" onmouseover="ArrivalD_Object.handleTimer(true)" onmouseout="ArrivalD_Object.handleTimer(false)">
+                                                                                    <table width="126" cellspacing="0" cellpadding="1">
+                                                                                        <tbody>
+                                                                                            <tr style="background-color:buttonface;">
+                                                                                                <td id="ArrivalD_Previous_ID" style="cursor:default" align="center" class="calendarDateInput" onclick="ArrivalD_Object.previous.go()" onmousedown="VirtualButton(this,true)" onmouseup="VirtualButton(this,false)" onmouseover="return ArrivalD_Object.previous.hover(this,true)" onmouseout="return ArrivalD_Object.previous.hover(this,false)" title="October">
+                                                                                                    <img src="file:///D:/New%20Folder/Welcome%20to%20Hotel%20Rajesh,%20Mahabaleshwar_files/prev.gif" />
+                                                                                                </td>
+                                                                                                <td id="ArrivalD_Current_ID" style="cursor:pointer" align="center" class="calendarDateInput" colspan="5" onclick="ArrivalD_Object.displayed.goCurrent()" onmouseover="self.status=&#39;Click to view November 2014&#39;;return true;" onmouseout="self.status=&#39;&#39;;return true;" title="Show Current Month">November 2014</td>
+                                                                                                <td id="ArrivalD_Next_ID" style="cursor:default" align="center" class="calendarDateInput" onclick="ArrivalD_Object.next.go()" onmousedown="VirtualButton(this,true)" onmouseup="VirtualButton(this,false)" onmouseover="return ArrivalD_Object.next.hover(this,true)" onmouseout="return ArrivalD_Object.next.hover(this,false)" title="December">
+                                                                                                    <img src="file:///D:/New%20Folder/Welcome%20to%20Hotel%20Rajesh,%20Mahabaleshwar_files/next2.gif" />
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <td width="18" align="center" class="calendarDateInput" style="height:16;width:18;font-weight:bold;border-top:1px solid dimgray;border-bottom:1px solid dimgray;">S</td>
+                                                                                                <td width="18" align="center" class="calendarDateInput" style="height:16;width:18;font-weight:bold;border-top:1px solid dimgray;border-bottom:1px solid dimgray;">M</td>
+                                                                                                <td width="18" align="center" class="calendarDateInput" style="height:16;width:18;font-weight:bold;border-top:1px solid dimgray;border-bottom:1px solid dimgray;">T</td>
+                                                                                                <td width="18" align="center" class="calendarDateInput" style="height:16;width:18;font-weight:bold;border-top:1px solid dimgray;border-bottom:1px solid dimgray;">W</td>
+  <td>
+                                            <label>
+
+                                                <input type="submit" name="Submit" value="Submit" class="brownBtn" />
+
+                                                <input type="reset" name="Submit2" value="Reset" class="brownBtn" />
+
+                                            </label>
+											
+											<tr><input type="text" value="submit">submit</tr>
+

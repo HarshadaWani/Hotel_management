@@ -1,0 +1,36 @@
+
+<html>
+<head>
+<link rel="stylesheet" href="style.css" >
+<body>
+<script src="embed.js"></script> 
+
+    <style>
+    #cf {
+      position:relative;
+      height:20px;
+      width:450px;
+      margin:0 auto;
+    }
+    #cf img {
+      position:absolute;
+      left:0;
+      -webkit-transition: opacity 1s ease-in-out;
+      -moz-transition: opacity 1s ease-in-out;
+      -o-transition: opacity 1s ease-in-out;
+      transition: opacity 1s ease-in-out;
+    }
+
+    #cf img.top:hover, #cf img.hover_effect {
+      opacity:0;
+      -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+      filter: alpha(opacity=0);
+    }
+
+    </style>
+    <div id="cf" class="shadow">
+      <img class="bottom" src="C:\Users\kartiki\Desktop\Js project1\FLOWERS\33.png" height="250" width="500">
+      <img   class="top hover" src="C:\Users\kartiki\Pictures\tree1.jpg" height="250" width="500">
+    </div>
+</body>
+</html>
